@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+/* for the login page */
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-5xl: 24px;
+    --font-size-lgi: 19px;
+    --font-size-13xl: 32px;
+    --font-size-7xl: 26px;
+  
+    /* Colors */
+    --color-cornflowerblue-100: #39acff;
+    --color-white: #fff;
+    --color-gray: #909090;
+    --color-darkslateblue: #00275e;
+    --color-black: #000;
+  
+    /* Gaps */
+    --gap-0: 0px;
+    --gap-25xl: 20px;
+    --gap-112xl: 131px;
+    --gap-28xl: 47px;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-9xs: 4px;
+    --padding-mini: 15px;
+  }  
+
+  
