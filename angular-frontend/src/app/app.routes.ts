@@ -11,7 +11,7 @@ import { LibrarianAideComponent } from './librarian-aide/librarian-aide-dashboar
 
 export const routes: Routes = [
   {
-    path: 'login',
+    path: '',
     component: LoginComponent,
     title: 'LIBRARY MANAGEMENT SYSTEM',
   },
@@ -52,7 +52,7 @@ export const routes: Routes = [
     title: 'LIBRARY MANAGEMENT SYSTEM',
   },
   {
-    path: '',
+    path: 'librarian-aide',
     component: LibrarianAideComponent,
     title: 'LIBRARY MANAGEMENT SYSTEM',
   },
