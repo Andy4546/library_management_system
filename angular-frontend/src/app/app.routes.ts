@@ -8,6 +8,8 @@ import { LostAndDamageComponent } from './librarian/lost-and-damage/lost-and-dam
 import { AboutComponent } from './librarian/about/about.component';
 import { TransactionComponent } from './librarian/transaction/transaction.component';
 import { LibrarianAideComponent } from './librarian-aide/librarian-aide-dashboard/librarian-aide.component';
+import { InventoryComponent } from './librarian-aide/inventory/inventory.component';
+
 
 export const routes: Routes = [
   {
@@ -52,8 +54,14 @@ export const routes: Routes = [
     title: 'LIBRARY MANAGEMENT SYSTEM',
   },
   {
-    path: '',
+    path: 'librarian-aide',
     component: LibrarianAideComponent,
+    title: 'LIBRARY MANAGEMENT SYSTEM',
+  },
+
+  {
+    path: '',
+    component: InventoryComponent,
     title: 'LIBRARY MANAGEMENT SYSTEM',
   },
 ];
