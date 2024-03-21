@@ -370,6 +370,7 @@
     box-sizing: border-box;
     width: 21px;
     height: 1034px;
+    overflow: auto;
   }
   .borrower-page2 {
     width: 100%;
